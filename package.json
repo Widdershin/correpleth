@@ -1,0 +1,31 @@
+{
+  "name": "correpleth",
+  "version": "1.0.0",
+  "description": "Visualise global correlations with choropleths.",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.ts:bundle.js --watch -- -p tsify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Widdershin/correpleth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Widdershin/correpleth/issues"
+  },
+  "homepage": "https://github.com/Widdershin/correpleth#readme",
+  "dependencies": {
+    "leaflet": "^1.2.0",
+    "leaflet-choropleth": "^1.1.4"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.2.0",
+    "budo": "^10.0.4",
+    "tsify": "^3.0.3",
+    "typescript": "^2.5.2"
+  }
+}
